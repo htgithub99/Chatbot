@@ -110,8 +110,8 @@ function ketnoi($userid,$gioitinh) { //tìm người chát
 } else {  // neu co nguoi trong hàng chờ
     addketnoi($userid, $partner);
  
- sendchat($partner,"✅ Bạn đã được kết nối với một người lạ(👤)");  
- sendchat($userid,"✅ Bạn đã được kết nối với một người lạ(👤)");  
+ sendchat($partner,"✅ Bạn đã được kết nối với một người lạ(👤) - Gõ End để kết thúc trò chuyện");  
+ sendchat($userid,"✅ Bạn đã được kết nối với một người lạ(👤) - Gõ End để kết thúc trò chuyện");  
   
   }
 }
